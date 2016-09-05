@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://test.amazon.com',
+    'url' => 'http://localhost',
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'America/Chicago',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'HfTv36N8g8LxQKRPn4Ku8i5Kn8DI6VfF'),
+    'key' => env('APP_KEY', 'SomeRandomString'),
 
     'cipher' => 'AES-256-CBC',
 
